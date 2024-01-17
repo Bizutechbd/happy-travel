@@ -1,0 +1,108 @@
+/* root variables declaration */
+:root {
+    --global-font: 'Mulish', sans-serif;
+    --white-color: #fff;
+    --black-color: #131318;
+    --light-color: rgba(195, 195, 209, 0.966);
+    --orange-color: #ff5400;
+    --title-font-size: 40px;
+}
+
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--global-font);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
+.text-black {
+    color: var(--black-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.text-orange {
+    color: var(--orange-color);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.text-title {
+    font-size: var(--title-font-size);
+    font-weight: 800;
+
+}
+
+/* Header */
+header {
+    padding: 50px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo a{
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+header .logo img{
+    float: left;
+    margin-right: 16px;
+}
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul a{
+    text-decoration: none;
+    padding: 10px 22px;
+    line-height: 4;
+    color: var(--black-color)
+}
+
+header nav ul a:hover,
+header nav ul a.active{
+    color: var(--orange-color);
+}
+
+header nav ul li:last-child a{
+    padding: 0px;
+}
+
+/* Header end  */
+
+
+/* Hero section  */
+#hero-section .container{
+    padding: 106px 185px;
+    background: url(../Images/hero-bg.png) no-repeat;
+}
+
+
+/* Hero section end */

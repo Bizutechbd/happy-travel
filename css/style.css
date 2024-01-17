@@ -3,8 +3,9 @@
     --global-font: 'Mulish', sans-serif;
     --white-color: #fff;
     --black-color: #131318;
-    --light-color: rgba(195, 195, 209, 0.966);
+    --light-color: rgba(224, 224, 235, 0.966);
     --orange-color: #ff5400;
+    --text-beguni: #8400ff;
     --title-font-size: 40px;
 }
 
@@ -36,6 +37,10 @@
     background-color: var(--orange-color);
 }
 
+.text-beguni{
+    color: var(--text-beguni);
+}
+
 .text-orange {
     color: var(--orange-color);
 }
@@ -48,7 +53,10 @@
 .text-title {
     font-size: var(--title-font-size);
     font-weight: 800;
+}
 
+.radius{
+    border-radius: 16px;
 }
 
 /* Header */
@@ -101,8 +109,31 @@ header nav ul li:last-child a{
 /* Hero section  */
 #hero-section .container{
     padding: 106px 185px;
+    position: relative;
     background: url(../Images/hero-bg.png) no-repeat;
 }
 
+#hero-section .container::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.10) 100%);
+    z-index: 1;
+    border-radius: 16px;
+
+}
+
+#hero-section .wrapper{
+    z-index: 2;
+    position: relative;
+}
+
+#hero-section h1{
+    font-size: 64px;
+    font-weight: 800;
+}
 
 /* Hero section end */

@@ -136,4 +136,42 @@ header nav ul li:last-child a{
     font-weight: 800;
 }
 
+#hero-section p{
+    margin: 24px 0px;
+    line-height: 26px;
+}
+
+#hero-section form{
+    margin-top: 24px;
+    padding: 16px;
+    background: #ffffff52;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+   
+}
+
+#hero-section form input, #hero-section form select{
+    color: rgba(19, 19, 24, 0.70);
+    padding: 14px;
+    border-radius: 8px;
+    border: unset;
+}
+
+#hero-section form input:focus-visible,
+#hero-section form select:focus-visible{
+    outline: unset;
+    box-shadow: unset;
+}
+
+#hero-section form button{
+    border-radius: 8px;
+    padding: 14px 20px;
+    border: 0px;
+}
+
+#hero-section form button span{
+    margin-top: 6px;
+}
 /* Hero section end */

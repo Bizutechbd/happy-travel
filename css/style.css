@@ -58,6 +58,9 @@
 .radius{
     border-radius: 16px;
 }
+.mt-100{
+    margin-top: 100px;
+}
 
 /* Header */
 header {
@@ -107,6 +110,8 @@ header nav ul li:last-child a{
 
 
 /* Hero section  */
+
+
 #hero-section .container{
     padding: 106px 185px;
     position: relative;
@@ -142,7 +147,7 @@ header nav ul li:last-child a{
 }
 
 #hero-section form{
-    margin-top: 24px;
+    margin-top: 80px;
     padding: 16px;
     background: #ffffff52;
     border-radius: 8px;
@@ -167,7 +172,7 @@ header nav ul li:last-child a{
 
 #hero-section form button{
     border-radius: 8px;
-    padding: 14px 20px;
+    padding: 16px;
     border: 0px;
 }
 
@@ -175,3 +180,14 @@ header nav ul li:last-child a{
     margin-top: 6px;
 }
 /* Hero section end */
+
+
+/* Popular tours section */
+#popular-tours .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+/* Popular tours section end */

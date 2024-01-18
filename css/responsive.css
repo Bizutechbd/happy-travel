@@ -1,39 +1,71 @@
-@media (max-width: 600px){
-    #hero-section .container{
+@media (max-width: 600px) {
+    #hero-section .container {
         padding: 32px 24px;
     }
-    header{
+
+    header {
         padding: 18px 20px;
     }
-    header nav{
+
+    header nav {
         display: none;
     }
-    .container{
+
+    .container {
         width: 100%;
     }
-    main{
+    .mt-100{
+        margin-top: 24px;
+    }
+
+    .mt-24{
+        margin-top: 16px;
+    }
+
+    main {
         padding: 0px 20px;
     }
-    header .logo a{
+
+    header .logo a {
         font-size: 21.5px;
     }
-    #hero-section .container{
+
+    #hero-section .container {
         padding: 32px 24px;
     }
-    #hero-section h1{
+
+    #hero-section h1 {
         font-size: 22px;
     }
-    #hero-section p{
+
+    #hero-section p {
         font-size: 14px;
         line-height: 21px;
     }
-    #hero-section form{
+
+    #hero-section form {
         margin-top: 32px;
         grid-template-columns: 1fr;
     }
 
-    #hero-section form select{
+    #hero-section form select {
         max-width: 100%;
     }
-}
 
+    /* Popular tours responsive */
+
+    #popular-tours .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    #popular-tours a{
+        margin-top: 24px;
+    }
+    #popular-tours img{
+        margin-top: 16px;
+    }
+    /* Popular tours responsive end */
+
+}

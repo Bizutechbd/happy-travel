@@ -66,4 +66,18 @@
 
     /* Popular tours responsive end */
 
+    /* Destination responsive */
+
+    #destination .gallery .row:first-child,
+    #destination .gallery .row:nth-child(2),
+    #destination .gallery .row:last-child
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 24px;
+    }
+    
+
+    /* Destination responsive end */
+
 }

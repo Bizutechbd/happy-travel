@@ -60,12 +60,10 @@
         grid-gap: 0px;
     }
 
-    #popular-tours a{
-        margin-top: 24px;
-    }
     #popular-tours img{
         margin-top: 16px;
     }
+
     /* Popular tours responsive end */
 
 }

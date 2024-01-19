@@ -224,3 +224,45 @@ header nav ul li:last-child a{
     width: 100%;
 }
 /* Popular tours section end */
+
+/* Destination style start */
+
+#destination .gallery{
+    margin-top: 48px;
+    display: grid;
+}
+
+#destination .gallery p{
+    position: absolute;
+}
+
+#destination .gallery .row:first-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+}
+
+#destination .gallery .row:nth-child(2){
+    display: grid;
+    grid-template-columns: 374px 474px 274px;
+    grid-gap: 24px;
+}
+
+#destination .gallery .row:last-child{
+    display: grid;
+    grid-template-columns: 473px 673px;
+    grid-gap: 24px;
+}
+
+#destination .gallery img{
+    width: 100%;
+}
+
+#destination .gallery>div{
+    position: relative;
+}
+
+#destination .gallery p{
+    position: absolute;
+}
+/* Destination style end */

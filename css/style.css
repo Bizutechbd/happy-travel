@@ -3,7 +3,7 @@
     --global-font: 'Mulish', sans-serif;
     --white-color: #fff;
     --black-color: #131318;
-    --light-color: rgba(97, 97, 107, 0.966);
+    --light-color: rgba(188, 188, 201, 0.966);
     --orange-color: #ff5400;
     --text-beguni: #8400ff;
     --title-font-size: 40px;
@@ -277,3 +277,51 @@ header nav ul li:last-child a{
     position: absolute;
 }
 /* Destination style end */
+
+
+/* Choose us section */
+#why-choose-us .container{
+    margin-top: 48px;
+}
+
+#why-choose-us .container .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+#why-choose-us .container .card{
+    padding: 32px 55px 32px 32px;
+}
+
+#why-choose-us .container .card:nth-child(odd){
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#why-choose-us .container .card:nth-child(even){
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#why-choose-us .container .card:last-child{
+    
+}
+
+#why-choose-us .container .card img{
+    width: 64px;
+    height: 64px;
+}
+
+#why-choose-us .container .card h3{
+    margin-top: 32px;
+    color: var(--black-color);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#why-choose-us .container .card p{
+    margin-top: 16px;
+    color: var(--light-color);
+    line-height: 26px;
+}
+
+/* Choose us section end */

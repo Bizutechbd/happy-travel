@@ -107,4 +107,17 @@
 
     /* Deals and Discounts Responsive end */
 
+    /* Perfect place responsive*/
+    #perfect-place .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    #perfect-place video{
+        margin-top: 16px;
+        width: 610px;
+    }
+    /* Perfect place end */
+
 }

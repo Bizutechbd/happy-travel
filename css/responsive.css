@@ -116,7 +116,7 @@
 
     #perfect-place video{
         margin-top: 16px;
-        width: 610px;
+        max-width: 385px;
     }
     /* Perfect place end */
 

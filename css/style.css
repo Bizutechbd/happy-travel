@@ -412,3 +412,29 @@ header nav ul li:last-child a {
 }
 
 /* Deals & Discounts end */
+
+/* Perfect place */
+#perfect-place .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 53px;
+}
+
+#perfect-place ul {
+    margin-left: 20px;
+}
+
+#perfect-place ul li {
+    margin-top: 15px;
+}
+
+#perfect-place a {
+    margin-top: 32px;
+    display: inline-block;
+}
+
+#perfect-place img {
+    float: right;
+    width: 100%;
+}
+/* Perfect place end*/

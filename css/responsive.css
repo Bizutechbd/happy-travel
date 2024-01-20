@@ -26,6 +26,11 @@
         padding: 0px 20px;
     }
 
+    h2 {
+        font-size: 24px !important;
+        font-weight: 800 !important;
+    }
+
     header .logo a {
         font-size: 21.5px;
     }
@@ -77,7 +82,29 @@
         grid-gap: 24px;
     }
     
-
     /* Destination responsive end */
+
+    /* Why choose us */
+    #why-choose-us .container .cards{
+        grid-template-columns: 1fr;
+    }
+
+    /* Why choose us end */
+
+    /* Deals and Discounts Responsive */
+    #deals-discounts .deals{
+        padding: 187px 16px 16px 16px;
+    }
+
+    #deals-discounts .deals ul li{
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+    #deals-discounts .deals .wrapper{
+        padding: 24px;
+    }
+
+
+    /* Deals and Discounts Responsive end */
 
 }

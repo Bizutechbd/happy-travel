@@ -115,8 +115,12 @@
     }
 
     #perfect-place video{
-        margin-top: 16px;
         max-width: 385px;
+        height: 100%;
+    }
+
+    .video-wrapper h3{
+        margin-top: 30px;
     }
     /* Perfect place end */
 

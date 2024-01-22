@@ -14,11 +14,12 @@
     .container {
         width: 100%;
     }
-    .mt-100{
+
+    .mt-100 {
         margin-top: 24px;
     }
 
-    .mt-24{
+    .mt-24 {
         margin-top: 16px;
     }
 
@@ -65,7 +66,7 @@
         grid-gap: 0px;
     }
 
-    #popular-tours img{
+    #popular-tours img {
         margin-top: 16px;
     }
 
@@ -75,32 +76,32 @@
 
     #destination .gallery .row:first-child,
     #destination .gallery .row:nth-child(2),
-    #destination .gallery .row:last-child
-    {
+    #destination .gallery .row:last-child {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 24px;
     }
-    
+
     /* Destination responsive end */
 
     /* Why choose us */
-    #why-choose-us .container .cards{
+    #why-choose-us .container .cards {
         grid-template-columns: 1fr;
     }
 
     /* Why choose us end */
 
     /* Deals and Discounts Responsive */
-    #deals-discounts .deals{
+    #deals-discounts .deals {
         padding: 187px 16px 16px 16px;
     }
 
-    #deals-discounts .deals ul li{
+    #deals-discounts .deals ul li {
         margin-right: 16px;
         margin-top: 16px;
     }
-    #deals-discounts .deals .wrapper{
+
+    #deals-discounts .deals .wrapper {
         padding: 24px;
     }
 
@@ -114,14 +115,63 @@
         grid-gap: 0px;
     }
 
-    #perfect-place video{
-        max-width: 385px;
+    #perfect-place video {
+        max-width: 375px;
         height: 100%;
     }
 
-    .video-wrapper h3{
+    .video-wrapper h3 {
         margin-top: 30px;
     }
+
     /* Perfect place end */
+
+    /* Newsletter responsive */
+
+    #newsletter {
+        margin-top: 100px;
+    }
+
+    #newsletter .container {
+        grid-template-columns: 1fr;
+    }
+
+    #newsletter .discount-tag {
+        padding: 17px 28px;
+        right: 4px;
+        bottom: 45px;
+    }
+
+    #newsletter .discount-tag h3 {
+        font-size: 16px;
+    }
+
+    #newsletter .discount-tag p {
+        font-size: 16px;
+    }
+
+    /* Newsletter responsive end */
+
+    /* Footer responsive */
+    footer {
+        padding: 32px 0px;
+    }
+
+    footer .container:first-child p {
+        padding: 16px 44px 0px 44px;
+    }
+
+    footer ul.social {
+        margin-top: 16px;
+    }
+
+    footer .border {
+        margin-top: 24px;
+    }
+
+    footer .container:last-child {
+        padding-top: 24px;
+    }
+    /* Footer responsive end */
 
 }

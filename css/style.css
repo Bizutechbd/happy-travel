@@ -49,8 +49,8 @@
     color: var(--black-color);
 }
 
-.text-orange{
-   color: #ff5400 !important;
+.text-orange {
+    color: #ff5400 !important;
 }
 
 .radius {
@@ -340,7 +340,7 @@ header nav ul li:last-child a {
     border-radius: 16px;
 }
 
-#deals-discounts .deals-1{
+#deals-discounts .deals-1 {
     margin-top: 48px;
 }
 
@@ -386,7 +386,8 @@ header nav ul li:last-child a {
     font-weight: 800;
 }
 
-#deals-discounts .deals-1, .deals-3{
+#deals-discounts .deals-1,
+.deals-3 {
     display: flex;
     align-items: end;
     flex-direction: row;
@@ -407,7 +408,7 @@ header nav ul li:last-child a {
     font-weight: 800;
 }
 
-#deals-discounts a{
+#deals-discounts a {
     margin-top: 24px;
 }
 
@@ -439,4 +440,165 @@ header nav ul li:last-child a {
 }
 
 /* Perfect place end*/
+
+/* Newsletter design */
+
+#newsletter {
+    margin-bottom: 100px;
+}
+
+#newsletter .container {
+    display: grid;
+    grid-template-columns: 474px 1fr;
+    grid-gap: 24px;
+}
+
+#newsletter form {
+    border-radius: 16px;
+    border: 1px solid var(--orange-color);
+    padding: 40px;
+}
+
+#newsletter form h3 {
+    color: var(--black-color);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#newsletter form p {
+    color: var(--light-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+#newsletter form .border {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    width: 100%;
+}
+
+#newsletter form input {
+    padding: 16px;
+    border-radius: 8px;
+    border: unset;
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#newsletter form input {
+    margin-bottom: 16px;
+}
+
+#newsletter form input:focus-visible {
+    outline: unset;
+    box-shadow: unset;
+}
+
+#newsletter form button {
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    border: 0px;
+    background: var(--orange-color);
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+#newsletter .image-wrapper {
+    position: relative;
+}
+
+#newsletter img {
+    width: 100%;
+}
+
+#newsletter .discount-tag {
+    background: var(--orange-color);
+    padding: 32px 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 16px;
+    position: absolute;
+    right: 4px;
+    bottom: 82px;
+    transform: rotate(325deg);
+}
+
+#newsletter .discount-tag h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#newsletter .discount-tag p {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* Newsletter design end */
+
+/* Footer styles start  */
+footer {
+    padding: 110px 0px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .logo {
+    display: inline-block;
+}
+
+footer .container:first-child p {
+    color: #5A5A5D;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+footer ul.social {
+    list-style: none;
+    margin-top: 32px;
+}
+
+footer ul.social li {
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+footer ul.social li a {
+    color: var(--black-color);
+    font-size: 24px;
+    padding: 5px;
+}
+
+footer .border {
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    margin-top: 50px;
+}
+
+footer .container:last-child {
+    padding: 50px 0px 0px 0px;
+}
+
+footer .container:last-child p {
+    color: var(--black-color);
+    font-weight: 300;
+}
+/* Footer styles end */
 
